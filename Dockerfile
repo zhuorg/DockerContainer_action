@@ -7,4 +7,4 @@ RUN ["chmod", "+x", "index.js"]
 # Debug to verify that everything is setup correctly
 RUN ls
 
-ENTRYPOINT [ "node", "index.js" ]
+ENTRYPOINT [ "node", "/index.js" ]
