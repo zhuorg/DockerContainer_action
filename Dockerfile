@@ -1,5 +1,5 @@
 FROM node:lts
-WORKDIR /github
+WORKDIR /home
 # Bundle app source
 COPY index.js ./index.js
 RUN ["chmod", "+x", "index.js"]
