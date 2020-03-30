@@ -2,7 +2,8 @@ name: test this action
 
 on:
   push:
-    branches: [ master ]
+    paths:
+      - '.github/workflows/main.yml'
   pull_request:
     branches: [ master ]
 
