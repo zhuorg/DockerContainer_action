@@ -12,4 +12,4 @@ RUN ls
 RUN cd .. ; ls
 RUN cd ../.. ; ls
 
-ENTRYPOINT [ "node", "index.js" ]
+ENTRYPOINT [ "node", "/github/workspace/index.js" ]
